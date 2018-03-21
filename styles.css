@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: "Lato", sans-serif;
+}
+
+.container {
+	margin: 20px;
+	width: 300px; 
+	color: #070707;
+	text-align: justify;
+	border: 5px double #020202;
+	box-shadow: 10px 10px 20px 5px #cac5c2;
+	border-radius: 74px 0 0 0;
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+	background-image: url(fresh_snow.png);
+}
+
+.title {
+	margin-top: 0.8rem;
+	padding: 0.8rem 0rem 0.5rem 0.8rem;
+	margin-bottom: 5px;
+}
+
+img {
+	margin-bottom: -3.5px; /*reseting the default bottom-margin of img */
+}
+
+.main {
+	padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+	margin-bottom: 0.8rem;
+	border: 0.1em double #fc9a29;
+}
+
+.foto {
+	margin-bottom: 0.8rem;
+}
+
+h3 {
+	margin: 0;
+	font-size: 1.8rem;
+	font-weight: 900;
+	word-spacing: 0.5rem;
+	text-transform: uppercase;
+	text-align: right;
+	color: #fc9a29;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 1rem 0;
+	padding: 0;
+}
+
+ul>li {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+span {
+	font-weight: normal;
+}
+
+.interesting {
+	font-style: italic;
+}
